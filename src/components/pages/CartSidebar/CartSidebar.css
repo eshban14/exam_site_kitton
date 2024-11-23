@@ -1,0 +1,146 @@
+
+.cart-sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .cart-sidebar-overlay.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Sidebar Styles */
+  .cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -400px; 
+    width: 400px;
+    height: 100%;
+    background: var(--bg-background-color); 
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    z-index: 1000; 
+    transition: right 0.3s ease; 
+  }
+  
+  .cart-sidebar.is-active {
+    right: 0; 
+  }
+  
+  /* Close Button */
+  .close-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: var(--text-color); 
+    cursor: pointer;
+    margin-bottom: 20px; 
+  }
+  
+  /* Heading */
+  .cart-sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: var(--text-color);
+  }
+  
+  /* List Styles */
+  .cart-sidebar ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    flex: 1; 
+    overflow-y: auto;
+  }
+  
+  /* List Item Styles */
+  .cart-sidebar li {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 15px; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .cart-sidebar li:last-child {
+    border-bottom: none; 
+  }
+  
+  /* Image Styles */
+  .cart-sidebar img {
+    width: 60px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between image and text */
+  }
+  
+  /* Product Name and Price */
+  .item-details {
+    flex: 1; /* Allow details to take up remaining space */
+  }
+  
+  .cart-sidebar h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Size for product name */
+    overflow: hidden; /* Prevent overflow */
+    white-space: nowrap; /* No wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
+  }
+  
+  .cart-sidebar p {
+    margin: 5px 0; /* Margin for price paragraph */
+    color: #666; /* Lighter color for price */
+  }
+  
+  /* Remove Button */
+  .remove-btn {
+    background-color: #e74c3c; /* Red background for remove button */
+    color: white; /* White text */
+    border: none;
+    padding: 8px 12px; /* Padding for button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color change */
+    border-radius: 4px; /* Slightly rounded corners */
+  }
+  
+  .remove-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Total Container */
+  .total-container {
+    margin-top: auto; /* Push the total container to the bottom */
+    text-align: center; /* Center the total text and button */
+    padding-top: 20px; /* Padding above total */
+    border-top: 1px solid #ddd; /* Light border above total */
+  }
+  
+  /* Total Amount */
+  .total-container h3 {
+    font-size: 20px; /* Size for total amount */
+  }
+  
+  /* Checkout Button */
+  .checkout-btn {
+    background-color: #28a745; /* Green background for checkout button */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer;
+    border-radius: 4px; /* Slightly rounded corners */
+    margin-top: 10px; /* Space above button */
+    transition: background-color 0.3s ease; /* Smooth color change */
+  }
+  
+  .checkout-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

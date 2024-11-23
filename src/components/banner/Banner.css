@@ -1,0 +1,133 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner_bg{
+    min-height: 600px;
+    width: 100%;
+    background-image: url('https://labartisan.net/demo/kitton/assets/images/banner/banner02.jpg');
+    background-size: cover;
+
+}
+
+
+
+.banner {
+    position: relative;
+    padding-top: 130px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.banner-content {
+    width: 50%;
+    color: white;
+    padding: 30px;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+.banner-image {
+    width: 90%;
+    padding-left: 30px;
+}
+
+.banner-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .banner-image2{
+        display: none;
+    }
+    .banner {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center content */
+        padding: 20px;
+    }
+
+    .banner-content {
+        width: 100%; 
+        text-align: center; 
+        padding: 20px 15px; 
+    }
+
+    .banner-content h1 {
+        font-size: 2rem; 
+    }
+
+    .banner-content h2 {
+        font-size: 2.5rem; 
+    }
+
+    .banner-content p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 10px 20px; 
+    }
+
+    .banner-image {
+        width: 100%; 
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+
+
+.banner-image2 {
+    position: absolute;
+    right: 8%;
+    top: -2%;
+  }
+  
+  .banner-image2 img.animated-image {
+    animation: fadeInOut 8s ease-in-out infinite;
+  }
+
+
+@keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,87 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Magic Unicorn Plush Toy",
+        "description": "Soft and cuddly unicorn plush toy with glittery mane.",
+        "price": 19.99,
+        "image": "./images/toy1.jpg",
+        "category": "Toys"
+      },
+      {
+        "id": 2,
+        "name": "Kids Art & Craft Kit",
+        "description": "Includes paints, brushes, and coloring sheets for endless creativity.",
+        "price": 15.99,
+        "image": "./images/toy2.jpg",
+        "category": "Toys"
+      },
+      {
+        "id": 3,
+        "name": "Stylish Handbag",
+        "description": "A trendy handbag for everyday use.",
+        "price": 49.99,
+        "image": "./images/bag1.jpg",
+        "category": "Bags"
+      },
+      {
+        "id": 4,
+        "name": "Stylish Handbag",
+        "description": "A trendy handbag for everyday use.",
+        "price": 49.99,
+        "image": "./images/bag2.jpg",
+        "category": "Bags"
+      },
+      {
+        "id": 5,
+        "name": "Stylish Handbag",
+        "description": "A trendy handbag for everyday use.",
+        "price": 49.99,
+        "image": "./images/bag3.jpg",
+        "category": "Bags"
+      },
+      {
+        "id": 6,
+        "name": "Stylish Handbag",
+        "description": "A trendy handbag for everyday use.",
+        "price": 49.99,
+        "image": "./images/bag4.jpg",
+        "category": "Bags"
+      },
+
+      {
+        "id": 7,
+        "name": "Stationery Set",
+        "description": "Complete stationery set including pens, notebooks, and more.",
+        "price": 24.99,
+        "image": "./images/stationary1.jpg",
+        "category": "Stationery"
+      },
+      {
+        "id": 8,
+        "name": "Educational Wooden Blocks",
+        "description": "Colorful wooden blocks to encourage learning and building skills.",
+        "price": 24.99,
+        "image": "./images/toy6.jpg",
+        "category": "Toys"
+      },
+      {
+        "id": 9,
+        "name": "Educational Wooden Blocks",
+        "description": "Colorful wooden blocks to encourage learning and building skills.",
+        "price": 24.99,
+        "image": "./images/toy3.jpg",
+        "category": "Toys"
+      },
+      {
+        "id": 10,
+        "name": "Educational Wooden Blocks",
+        "description": "Colorful wooden blocks to encourage learning and building skills.",
+        "price": 24.99,
+        "image": "./images/stationary2.jpg",
+        "category": "Stationery"
+      }
+      
+    ]
+  }
+  
